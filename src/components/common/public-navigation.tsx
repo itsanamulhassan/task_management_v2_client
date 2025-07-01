@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { Button } from "../ui/button";
 import SectionWrapper from "./wrapper/section-wrapper";
+import { ModeToggle } from "./mode-taggler";
 
 const PublicNavigation = () => {
   return (
@@ -15,7 +16,9 @@ const PublicNavigation = () => {
               <Button variant="secondary">Login</Button>
             </Link>
           </li>
-          <li></li>
+          <li>
+            <ModeToggle />
+          </li>
         </ul>
       </SectionWrapper>
     </nav>
