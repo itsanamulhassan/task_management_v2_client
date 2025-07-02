@@ -22,8 +22,6 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 import useSidebar from "./contexts/sidebar-context";
-import { Button } from "./ui/button";
-
 export function NavUser({
   user,
 }: {
