@@ -6,14 +6,14 @@ import { ModeToggle } from "./mode-taggler";
 const PublicNavigation = () => {
   return (
     <nav>
-      <SectionWrapper className="border flex-row justify-between">
+      <SectionWrapper className="flex-row justify-between my-2">
         <Link to="/">
           <Button variant="outline">Home</Button>
         </Link>
         <ul className="flex gap-x-4">
           <li>
-            <Link to="/login">
-              <Button variant="secondary">Login</Button>
+            <Link to="/signin">
+              <Button variant="secondary">Sign in</Button>
             </Link>
           </li>
           <li>

@@ -8,7 +8,7 @@ const SectionWrapper: FC<ISectionWrapperProps> = ({ children, className }) => {
   return (
     <section
       className={cn(
-        "w-[1300px] flex flex-col items-center  mx-auto my-[150px]",
+        "w-[1300px] flex flex-col items-center  mx-auto my-[100px]",
         className
       )}
     >

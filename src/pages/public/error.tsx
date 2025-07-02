@@ -30,18 +30,18 @@ const Error = () => {
           </p>
         )}
       </div>
-      <div className="w-full lg:w-1/2 bg-tertiary h-full lg:h-screen  flex flex-col justify-center items-center">
-        <h4 className="text-white text-xl lg:text-3xl font-[300] text-center leading-7 lg:leading-10 tracking-tighter">
+      <div className="w-full lg:w-1/2 bg-secondary h-full lg:h-screen  flex flex-col justify-center items-center">
+        <h4 className="text-secondary-foreground text-xl lg:text-3xl font-[300] text-center leading-7 lg:leading-10 tracking-tighter">
           "Oops! Something went wrong. <br /> Please try again later."
         </h4>
         <div className="flex gap-x-2 mt-8">
           <Link to="/">
-            <Button className="text-white" variant="link">
+            <Button className="text-secondary-foreground" variant="link">
               Back to home
             </Button>
           </Link>
           <Link to="/">
-            <Button className="text-white" variant="link">
+            <Button className="text-secondary-foreground" variant="link">
               Back to previous page
             </Button>
           </Link>

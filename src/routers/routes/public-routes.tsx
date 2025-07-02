@@ -1,9 +1,10 @@
-import React from "react";
-import type { IRoute } from "@/types";
 import Home from "@/pages/public/home";
-import { Login } from "@/pages/public/login";
+import SignIn from "@/pages/public/signin";
+import SignUp from "@/pages/public/signup";
+import type { RouteData } from "@/types";
+import React from "react";
 
-export const publicRoutes: Partial<IRoute>[] = [
+export const publicRoutes: Partial<RouteData>[] = [
   {
     path: "/",
     element: React.createElement(Home),
@@ -13,7 +14,11 @@ export const publicRoutes: Partial<IRoute>[] = [
     element: React.createElement(Home),
   },
   {
-    path: "login",
-    element: React.createElement(Login),
+    path: "signin",
+    element: React.createElement(SignIn),
+  },
+  {
+    path: "signup",
+    element: React.createElement(SignUp),
   },
 ];
