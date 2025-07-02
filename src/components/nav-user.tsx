@@ -22,6 +22,7 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 import useSidebar from "./contexts/sidebar-context";
+import { Button } from "./ui/button";
 
 export function NavUser({
   user,
@@ -93,7 +94,7 @@ export function NavUser({
             </DropdownMenuGroup>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <IconLogout />
+              <IconLogout className="text-foreground" />
               Log out
             </DropdownMenuItem>
           </DropdownMenuContent>
