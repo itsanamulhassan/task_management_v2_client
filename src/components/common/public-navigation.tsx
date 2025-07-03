@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { Button } from "../ui/button";
 import SectionWrapper from "./wrapper/section-wrapper";
-import { ModeToggle } from "./mode-taggler";
+import { ModeToggle } from "./mode-toggler";
 
 const PublicNavigation = () => {
   return (

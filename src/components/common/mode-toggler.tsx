@@ -4,7 +4,6 @@ import { Moon, Sun, SunMoon } from "lucide-react";
 
 export function ModeToggle() {
   const { theme, setTheme } = useTheme();
-  console.log("theme", theme);
 
   return (
     <Button

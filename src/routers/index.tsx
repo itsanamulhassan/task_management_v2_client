@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import { createBrowserRouter } from "react-router";
 import { publicRoutes } from "./routes/public-routes";
 import DashboardLayout from "@/layouts/dashboard-layout";
+import dashboardRoutes from "./routes/dashboard-routes";
 const routers = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +24,7 @@ const routers = createBrowserRouter([
         <DashboardLayout />
       </Suspense>
     ),
+    children: [...dashboardRoutes],
   },
 ]);
 

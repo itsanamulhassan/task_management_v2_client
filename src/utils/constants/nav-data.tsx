@@ -1,16 +1,14 @@
+import type { NavData } from "@/types/nav";
 import {
   IconChartBar,
   IconDashboard,
-  IconDatabase,
-  IconFileWord,
   IconHelp,
   IconListDetails,
-  IconReport,
   IconSearch,
   IconSettings,
 } from "@tabler/icons-react";
 
-export const data = {
+export const data: NavData = {
   user: {
     name: "Anamul Hassan",
     email: "hassan@mail.com",
@@ -19,17 +17,17 @@ export const data = {
   navMain: [
     {
       title: "Users",
-      url: "/users",
+      url: "users",
       icon: IconDashboard,
     },
     {
       title: "Tasks",
-      url: "/tasks",
+      url: "tasks",
       icon: IconListDetails,
     },
     {
       title: "Analytics",
-      url: "/analytics",
+      url: "analytics",
       icon: IconChartBar,
     },
   ],
@@ -48,23 +46,6 @@ export const data = {
       title: "Search",
       url: "#",
       icon: IconSearch,
-    },
-  ],
-  documents: [
-    {
-      name: "Data Library",
-      url: "#",
-      icon: IconDatabase,
-    },
-    {
-      name: "Reports",
-      url: "#",
-      icon: IconReport,
-    },
-    {
-      name: "Word Assistant",
-      url: "#",
-      icon: IconFileWord,
     },
   ],
 };
